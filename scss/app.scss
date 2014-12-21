@@ -1,5 +1,14 @@
+@import "compass/css3";
 @import "settings";
 @import "foundation";
+@import "var";
+@import "tps";
+
+@import "partials/menu";
+@import "partials/header";
+@import "partials/intro";
+@import "partials/treatment";
+@import "partials/approch.scss";
 
 // Or selectively include components
 // @import

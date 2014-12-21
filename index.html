@@ -8,156 +8,193 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
+    <div class="row fullWidth menu">
+      <div class="large-8 large-centered columns">
+        <div class="row">
+        <div class="logo hide-for-small medium-3 large-3 columns">
+          <img src="img/logo.png" alt="">
         </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
+        <div class="compagny-name medium-9 large-9 columns">
+          <h1>therapy <span class="purple">place</span> sheffield</h1>
+          <span class="tagline"> a place dedicated to your health and wellbeing</span>
+        </div>
         </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
-
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
+    <div class="row fullWidth header">
+      <div class="large-6 large-centered columns">
+        <div class="row header-content">
+          <div class="logo large-12 columns">
+          <img src="img/logo-transparent.png" alt="">
           </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
+          <div class="compagny-name arge-12 text-center columns">
+          <h1>therapy <span class="purple">place</span> sheffield</h1>
+          <span class="tagline"> a place dedicated to your health and wellbeing</span>
         </div>
         
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
-                </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
+          <a href="#" class="phantom-button center">You deserve it!</a>
         </div>
       </div>
+    </div>
+ 
+    <div class="row fullWidth">
+      <div class="intro large-8 large-centered columns">
+        <div class="row intro-content">
+            <div class="text1 large-8 large-centered columns">
+            <p>
+              Massage has a positive effect on problems caused by general everyday activities in numerous different ways.
+            </p>
+            </div>
+            <div class="text2 large-10 center">
+            <p>
+             Each treatment is tailored to your individual needs, giving more attention where it is most needed so you may gain maximum benefit. Check the range of treatments available and if you are unsure which treatment would be the most suitable for you please feel free to contact me for advice. 
+            </p>
+          </div>
+        </div>
+        <div class="contact-box large-4 center">
+          <p>Booking &amp; enquieres please call</p>
+          <span class="phone-number">07535281111</span>
+        </div>
+      </div>
+    </div>   
+
+    <div class="row fullWidth treatment">
+
+          <div class="offer">
+            <div class="large-10 columns large-centered">
+              <div class="row">
+                <div class="offer-text large-8 columns">
+                  <p>Book a set of 5 treatments in advance for just £24 an hour</p>
+                </div>
+                <div class="book large-4 columns">
+                  <a href="">book now</a>
+                </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="large-12 columns treatment-grid">
+            <h2>Most popular</h2>
+            <div class="large-9 columns large-centered">
+            <div class="row" data-equalizer>
+
+              <div class="large-4 columns">
+                <div class="large-11 cards center" data-equalizer-watch>
+                  <div class="info-wrapper">
+                  <h4>holistic massage</h4>
+                  <span class="start-price">from £20</span>
+                  <div class="intro-front">
+                    <p>combining therapeutic and nurturing processes of touch and response.
+                    <a href="">More info &gt;</a>
+                    </p>
+                  </div>
+                </div>
+                <img alt=""src="img/holistic-massage.png">
+                </div>
+              </div>
+
+              <div class="large-4 columns" >
+                <div class="large-11 cards center" data-equalizer-watch>
+                  <div class="info-wrapper">
+                  <h4>Hot stones &amp; cold stones massage</h4>
+                  <span class="start-price">from £35</span>
+                  <div class="intro-front">
+                    <p>Hot stone massage pairs classic massage techniques with the heat of natural basalt stone.
+                    <a href="">More info &gt;</a>
+                    </p>
+                  </div>
+                  </div>
+                <img alt=""src="img/hot-stones-massage.png">
+                </div>
+              </div>
+
+              <div class="large-4 columns">
+                <div class="large-11 cards center" data-equalizer-watch>
+                <div class="info-wrapper">
+                  <h4>Indian head massage</h4>
+                  <span class="start-price">from £45</span>
+                  <div class="intro-front">
+                    <p>Indian head massage is an ancient technique for treating the upper back, neck, shoulders, face and scalp.
+                    <a href="">More info &gt;</a>
+                    </p>
+                  </div>
+                </div>
+                <img alt=""src="img/indian-head-massage-final.png">
+                </div>
+              </div>
+
+            </div> 
+          </div>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="row fullWidth">
+      <div class="approch">
+      <h4>a holistic and client-centered approch</h4>
+
+      <span>Your first session will start with a consultation where your treatment </br> will be tailored and individualised, targeting your specific requirements.</span>
+
+          <div class="large-12 columns">
+            <div class="row approch-wrapper" data-equalizer>
+
+              <div class="large-4 columns">
+                <div class="large-7 center" data-equalizer-watch>
+                  <div class="">
+                  <div class="circle">1</div>
+                  <div class="approch-text">
+                    <p>
+                      Techniques used may vary in each individual treatment depending on your needs and the treatment selected. Some of the techniques are Passive Joint Manipulation, Joint Stretches, Pressure Points, Energy Points, Muscle Energy Technique and Neuromuscular Techniques. 
+                     </p>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="large-4 columns" >
+                <div class="large-7 center" data-equalizer-watch>
+                  <div class="">
+                  <div class="circle">2</div>
+                  <div class="approch-text">                   
+                   <p>
+                     Massage has short and long term benefits which will vary depending on the individual. Some of the benefits include: reduction of muscle tension and stiffness; relief of muscle spasm; increased flexibility and range of motion; reduction of stress levels; relief of physical and mental fatigue and improvement of blood circulation. Please check treatments section for more specific benefits about each treatment. 
+                   </p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="large-4 columns">
+                <div class="large-7 center" data-equalizer-watch>
+                <div class="info-wrapper">
+                  <div class="circle">3</div>
+                  <div class="approch-text">
+                    <p>
+                      Advice may be given about what you can do in between treatments to maintain or improve your well-being. This may include specific stretching and relaxation exercises and self massage techniques. A course of treatments is usually recommended for optimum results but this will vary depending on your body’s needs.
+                    </p>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+            </div> 
+          </div>
+      </div>
+    </div>
+
+    <div class="row fullWidth">
+      <div class="about">i am the about section</div>
+    </div>
+
+    <div class="row fullWidth">
+      <div class="footer">i am the footer</div>
     </div>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.equalizer.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>

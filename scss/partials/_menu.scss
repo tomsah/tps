@@ -1,0 +1,30 @@
+.menu{
+	background: $white;
+	position:fixed;
+	top: 0;
+	box-shadow: 0 4px 2px -2px gray;
+	z-index: 1;
+	@media#{$large}{
+		min-height: 150px;
+	}
+}
+
+.logo{
+	height: 100%;
+	min-height: 100%;
+	padding-right: 0;
+		img{
+		max-height: 150px;
+		@extend .center;
+		}
+}
+
+
+.compagny-name{
+	text-align: left;
+	text-transform: uppercase;
+	min-height: 150px;
+}
+.tagline{
+	@extend .purple;
+}

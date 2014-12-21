@@ -1,0 +1,69 @@
+.treatment{
+	background: $main2;
+}
+
+.offer{
+	background: $main1;
+	padding: 10px 20px;
+}
+
+.offer-text{
+	p{
+	color: $white;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 0px;
+	letter-spacing: 1.3pt;
+	}
+}
+
+.book{
+	background: $main2;
+	width: 117px;
+	padding: 12px;
+	text-align: center;
+		a{
+			color: $main1;
+		}
+}
+
+.treatment-grid{
+	padding: 30px 0;
+}
+
+.cards {
+	background: $white;
+	box-shadow: -6px 13px 20px #a2a2a2;
+	padding: 10px;
+	h4{
+		text-align: center;
+		@extend .purple;
+	}
+	.info-wrapper{
+		height: 175px;
+	}
+
+	.start-price{
+		@extend .purple;
+		@extend .center;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.intro-front{
+		text-align: center;
+		margin-bottom: 0px;
+		a{
+		@extend .purple;	
+		}
+	}
+	img{
+		@extend .center;
+		width: 200px; 
+		height: 200px; 
+		vertical-align: middle;
+		border-radius: 50%;
+		border: 8px solid $main3;
+	}
+
+}
